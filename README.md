@@ -10,3 +10,4 @@
  // You can add multiple dates with description: 11/19/23,11/20/23,11/21/23,11/22/23
 
 // Person who Peer Reviewed your assignment
+Peer Review: Joe Hernandez "images werent fitting to my screen and some werent responsive, it looks good it just looks like you ran out of time to try and fix it.
