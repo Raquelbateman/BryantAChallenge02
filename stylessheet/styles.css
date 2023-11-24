@@ -1,6 +1,9 @@
 .body{
   font-family:'Open Sans', sans-serif;
 }
+.flexItGoodNCenter{
+  color:#E5FEFF;
+}
 
 
 .navbar-expand-lg{
@@ -26,6 +29,9 @@
   padding-left: 222px;
   padding-right: 220px;
   opacity:0.5;
+}
+.container{
+  color:#E5FEFF;
 }
 
 .header{
@@ -83,6 +89,7 @@ opacity: 0.08%;
   background-repeat: no-repeat;
   background-attachment: relative;
   height:575px;
+  color:#E5FEFF;
   /* width: cover; */
 } 
 
@@ -90,18 +97,19 @@ opacity: 0.08%;
 
   .card{
     padding-top:-15%;
-    padding-bottom:20%;
+    padding-bottom:-55%;
     margin-top:15%
     
    
   }
 
 
-  .card-body{
+  .card-body1{
     margin-top:-5%;
-    margin-bottom:-95%;
+    margin-bottom:-100%;
     padding-bottom:-85%;
-    margin-bottom:-65%;
+  
+    color:#E5FEFF;
 
   }
 
