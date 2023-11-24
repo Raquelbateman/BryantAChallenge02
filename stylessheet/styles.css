@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     width:  cover;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -29,6 +31,8 @@
   padding-left: 222px;
   padding-right: 220px;
   opacity:0.5;
+  max-width: 100%;
+  height: auto;
 }
 .container{
   color:#E5FEFF;
@@ -42,14 +46,25 @@
   background-repeat: no-repeat;
   background-attachment: relative;
   height:550px;
-  width: cover;
-  
+  /* width: cover; */
+  max-width: 100%;
+  /* height: auto; */
 
     
 }
 .colflex{
 background-color: #000324; 
 opacity: 0.08%; 
+max-width: 100%;
+height: auto;
+}
+.card-title1{
+  color:#000000;
+
+}
+
+.card-text1{
+  color:#000000;
 }
 
 .row2 {
@@ -57,7 +72,7 @@ opacity: 0.08%;
     padding-bottom: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 20%;
+    color:#000000;
   }
 
   .img-fluid {
@@ -67,15 +82,18 @@ opacity: 0.08%;
     padding-bottom:80px;
     padding-left: 5%;
     padding-right:15%;
-    width: 1075px;
-    height:640px;
+    max-width: 100%;
+    height: auto;
   
    
   }
 
+
   .award{
     padding-top:90%;
-    padding-bottom:100%
+    padding-bottom:100%;
+    max-width: 100%;
+    height: auto;
    
   }
   
@@ -90,30 +108,32 @@ opacity: 0.08%;
   background-attachment: relative;
   height:575px;
   color:#E5FEFF;
-  /* width: cover; */
 } 
 
-
-
-  .card{
-    padding-top:-15%;
-    padding-bottom:-55%;
-    margin-top:15%
-    
-   
+  .column {
+    float: left;
+    width: 33.33%;
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right:2%;
   }
-
-
-  .card-body1{
-    margin-top:-5%;
-    margin-bottom:-100%;
-    padding-bottom:-85%;
   
-    color:#E5FEFF;
+  .row:after {
 
+    display: table;
+    clear: both;
   }
+.blue-button{
+  color:#E5FEFF;
+  background-color: #004CC7;
+  padding-left: 20%;
+  padding-right:20%;
+}  
 
-
+.flex-container1{
+  width:cover;
+  height:75px
+}
 
   .package-class{
     padding: -5%;
@@ -167,20 +187,22 @@ opacity: 0.08%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  color:#E5FEFF;
 }
 .valet {
   scale: 70%;
   margin-top: -20%;
 }
+
+
 .resRoomMarPad {
   margin: 1%;
-  padding-left: -66%;
   padding-right: 22%;
   margin-left: 10%;
-  padding-top:-1%;
   padding-bottom:0%;
   color:#E5FEFF;
-  width:1315px;
+  width:1310px;
+ 
 
 }
 
@@ -202,6 +224,8 @@ opacity: 0.08%;
   background-size:cover;
   background-position: 10%;
   background-clip: 10%;
+  height:360px;
+  
 }
 
 .resImgInvis {
@@ -215,28 +239,16 @@ opacity: 0.08%;
   height: 30px;
 }
 
+.footer{
+  background-color: #000324;
+}
+
 .footer-text{
   justify-content: center;
   color: #E5FEFF;
   margin-top:-1%;
 }
 .footer-smtext{
-  
   color: #E5FEFF;
   margin-top:-2.5%;
-}
-
-
-.footer {
-  background-image: cover;
-  align-self: left;
-  margin-top: 105px;
-  font: normal normal normal 16px/20px Source Sans Pro;
-  letter-spacing: 0px;
-  color: #E5FEFF;
-  opacity: 1;
-  width:  cover;
-  background: #000324 0% 0% no-repeat;
-  height: 190px;
-
 }
